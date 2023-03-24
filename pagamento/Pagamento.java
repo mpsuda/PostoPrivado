@@ -4,40 +4,35 @@ import	java.util.Scanner;
 
 public class Pagamento {
 	
-	public static void formaPagamento(int formaEscolhida, double valorAbastecido) {
+	public static void formaPagamento(int formaPagamento, double valorPago) {
 		
-		Scanner entrada = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Favor escolher a forma de pagamento: 1-Dinheiro, 2-Débito, 3-Crédito");
-		int formaEscolhida = entrada.nextInt();
+		int formaEscolhida = input.nextInt();
 		
 		switch (formaEscolhida) {
 		case 1:
 			System.out.println("Será pago em dinheiro");
-			
-			System.out.println("Qual será a quantia paga?");
-			double quantiaDinheiro = entrada.nextDouble();
+			double quantiaDinheiro = input.nextDouble();
 			
 			break;
 			
 		case 2:
 			System.out.println("Será pago no débito");
-			
-			System.out.println("Qual será a quantia paga?");
-			double quantiaDebito = entrada.nextDouble();
+			double quantiaDebito = input.nextDouble();
 			
 			break;
 			
 		case 3:
 			System.out.println("Será pago no crédito");
-			
-			System.out.println("Qual será a quantia paga?");
-			double quantiaCredito = entrada.nextDouble();
+			double quantiaCredito = input.nextDouble();
 			
 			break;
 			
-		default:
+		default: 
 			break;
+			
+			
 		}
 	}
 

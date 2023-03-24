@@ -2,7 +2,7 @@ package ProdutoServico;
 
 public class Abastecer {
 	
-	public static void abastecer(double valorAbastecer, int tipoCombustivel) {
+	public static void abastecer (int tipoCombustivel, double valorAbastecer) {
 	
 	double precoGasolina = 4.75;
 	double precoEtanol = 3.85;

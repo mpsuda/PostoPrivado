@@ -8,32 +8,33 @@ public class Pagamento {
 		
 		Scanner input = new Scanner(System.in);
 		
-		int formaEscolhida = input.nextInt();
+		double quantiaDinheiro;
+		double quantiaDebito;
+		double quantiaCredito;
+		double valorAbastecer;
 		
-		switch (formaEscolhida) {
+				
+		switch (formaPagamento) {
 		case 1:
-			System.out.println("Será pago em dinheiro");
-			double quantiaDinheiro = input.nextDouble();
+			System.out.println("Selecionado pagamento em dinheiro");
+			
 			
 			break;
 			
 		case 2:
-			System.out.println("Será pago no débito");
-			double quantiaDebito = input.nextDouble();
+			System.out.println("Selecionado pagamento no débito");
+			
 			
 			break;
 			
 		case 3:
-			System.out.println("Será pago no crédito");
-			double quantiaCredito = input.nextDouble();
+			System.out.println("Selecionado pagamento no crédito");
+			
 			
 			break;
 			
 		default: 
 			break;
-			
-			
 		}
 	}
-
 }

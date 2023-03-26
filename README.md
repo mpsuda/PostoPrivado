@@ -1,8 +1,8 @@
 Trabalho Posto em Java do Projeto Transforme-se Serasa
 
 Autores: 
-Nathianny Pereira
-Anderson (Juju) Santana
+Nathianny Pereira, 
+Anderson (Juju) Santana, 
 Marcos Suda
 
 Todos os autores participaram da criação, correção e melhorias nos códidos da Main e das Classes.

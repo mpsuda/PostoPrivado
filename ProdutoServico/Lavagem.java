@@ -1,5 +1,7 @@
 package ProdutoServico;
 
+//Classe Lavagem criada/revisada por todos os integrantes do grupo: Naty, Juju e Suda
+
 public class Lavagem {
 	
 	public static void realizarLavagem(int escolhaCliente) {

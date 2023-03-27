@@ -1,5 +1,7 @@
 package pagamento;
 
+// Classe Pagamento criada/revisada por todos os integrantes do grupo: Naty, Juju e Suda
+
 import	java.util.Scanner;
 
 public class Pagamento {

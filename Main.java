@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-import pessoas.Cliente;
-import pessoas.Funcionario;
+// Main criado/revisado por todos os integrantes do grupo: Naty, Juju e Suda
+
 import ProdutoServico.Abastecer;
 import ProdutoServico.Lavagem;
 import pagamento.Pagamento;
-import Pagamento.formaPagamento;
+
 
 public class Main {
 

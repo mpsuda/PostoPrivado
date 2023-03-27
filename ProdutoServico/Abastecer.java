@@ -1,5 +1,7 @@
 package ProdutoServico;
 
+//Classe Abastecer criada/revisada por todos os integrantes do grupo: Naty, Juju e Suda
+
 public class Abastecer {
 	
 	public static void abastecer(int tipoCombustivel, double valorAbastecer) {

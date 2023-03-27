@@ -16,19 +16,19 @@ public class Pagamento {
 				
 		switch (formaPagamento) {
 		case 1:
-			System.out.println("Selecionado pagamento em dinheiro");
+			System.out.println("Pagamento em dinheiro realizado com sucesso!");
 			
 			
 			break;
 			
 		case 2:
-			System.out.println("Selecionado pagamento no débito");
+			System.out.println("Pagamento no débito realizado com sucesso!");
 			
 			
 			break;
 			
 		case 3:
-			System.out.println("Selecionado pagamento no crédito");
+			System.out.println("Pagamento no crédito realizado com sucesso!");
 			
 			
 			break;

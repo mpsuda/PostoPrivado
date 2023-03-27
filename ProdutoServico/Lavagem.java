@@ -22,6 +22,8 @@ public class Lavagem {
 		} else if (escolhaCliente == 4){ 
 				tipoLavagem = precoFora;
 				System.out.printf("Foi realizada a lavagem por fora do carro (Ducha), no valor de R$ %2f%n", precoFora);
+		} else {
+				System.out.println("Opção inválida! Por favor, reinicie e escolha um tipo de lavagem disponível: Pequeno, Médio, Grande ou Personalizado");
 		}
 	}
 }

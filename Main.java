@@ -30,23 +30,25 @@ public class Main {
 		
 		if(escolhaCliente == 1) {
 		
-		System.out.println("Por favor, escolha o tipo de combustível: 1-Gasolina, 2-Álcool, 3-Diesel");
-		tipoCombustivel = input.nextInt();
+			System.out.println("Escolha o tipo de combustível: 1-Gasolina, 2-Álcool, 3-Diesel");
+			tipoCombustivel = input.nextInt();
 		
-		System.out.println("Quanto gostaria de abastecer?");
-		valorAbastecer = input.nextDouble();		
+			System.out.println("Quanto gostaria de abastecer?");
+			valorAbastecer = input.nextDouble();		
 		
-		Abastecer.abastecer(tipoCombustivel, valorAbastecer);
+			Abastecer.abastecer(tipoCombustivel, valorAbastecer);
 
 		} else if (escolhaCliente == 2) {
 		
-		System.out.println("Por favor, escolha o tipo de Lavagem: 1-Pequeno, 2-Médio, 3-Grande, 4-Personalizado");
-		tipoLavagem = input.nextInt();
+			System.out.println("Escolha o tipo de Lavagem: 1-Pequeno, 2-Médio, 3-Grande, 4-Personalizado");
+			tipoLavagem = input.nextInt();
 			
 				
-		Lavagem.realizarLavagem(tipoLavagem);
-		
-				
+			Lavagem.realizarLavagem(tipoLavagem);
+						
+		} else {
+			
+			System.out.println("Opção inválida! Por favor, reinicie e escolha um serviço disponível: 1-Abastecimento, 2-Lavagem ");
 		}
 		
 		System.out.println("Favor escolher a forma de pagamento: 1-Dinheiro, 2-Débito, 3-Crédito");
@@ -65,22 +67,3 @@ public class Main {
 	}
 	
 }
-		
-		//Cliente c1 = new Cliente();
-		//c1.nome = "Gabriel";
-		//c1.sobreNome = "Nunes";
-		/*
-		Cliente c2 = new Cliente("Gilcemar", "Borges");
-		Cliente c3 = new Cliente("Renan", "Teixeira");
-		Cliente c4 = new Cliente("Ariel", "Xavier");
-		
-		System.out.println(c2.nome);
-		System.out.println(c2.sobreNome);
-		
-		System.out.println(Funcionario.enderecoPosto);
-		
-		Credito.pagoNoCredito("Richard");
-		Credito.pagoNoCredito("Qualquer nome");
-		*/
-
-	

@@ -14,5 +14,3 @@ A equipe complementou a atividade Posto em conjunto, explorando todas as possibi
 Com certeza este projeto ajudou a agregar mais conhecimento a todos, também mostrando o poder do GitHub, pois quando um não conseguia mais contribuir, realizava commit e um colega continuava já com o que foi conversado e alinhado pelo WhatsApp.
 
 Um enorme agradecimento: Naty e Juju!!!!
-
-Que continuemos fazendo trabalhos juntos e quem sabe, entrar para trabalhar no Serasa, também juntos!!!!

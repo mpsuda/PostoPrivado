@@ -9,4 +9,10 @@ Todos os autores participaram da criação, correção e melhorias nos códidos 
 
 Também conversamos diariamente pelo WhatsApp sobre solução de erros e melhor organização do Terminal.
 
-A equipe complemntou esse sistema em conjunto explorando todas as possibilidades possível dos que daria enfâse ao demais processo do sistema e com certeza ajudou a agregar mais conhecimento a todos, sempre procurando adicionar algo a mais.
+A equipe complementou a atividade Posto em conjunto, explorando todas as possibilidades do que foi proposto.
+
+Com certeza este projeto ajudou a agregar mais conhecimento a todos, também mostrando o poder do GitHub, pois quando um não conseguia mais contribuir, realizava commit e um colega continuava já com o que foi conversado e alinhado pelo WhatsApp.
+
+Um enorme agradecimento: Naty e Juju!!!!
+
+Que continuemos fazendo trabalhos juntos e quem sabe, entrar para trabalhar no Serasa, também juntos!!!!
